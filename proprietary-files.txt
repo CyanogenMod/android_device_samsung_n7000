@@ -5,3 +5,5 @@ system/bin/gpsd
 system/bin/gps.cer
 system/etc/gps.xml
 system/lib/libakm.so
+system/etc/wifi/nvram_mfg.txt_semcove
+system/etc/wifi/nvram_net.txt_semcove
