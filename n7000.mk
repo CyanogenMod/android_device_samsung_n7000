@@ -32,7 +32,8 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=320
+    ro.sf.lcd_density=320 \
+	net.tethering.noprovisioning=true
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -54,7 +55,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc \
     $(LOCAL_PATH)/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
 
-# GPS
+# Gps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.gps.rc:root/init.gps.rc \
     $(LOCAL_PATH)/configs/gps.xml:system/etc/gps.xml

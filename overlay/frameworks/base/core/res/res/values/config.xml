@@ -157,4 +157,7 @@
     <!-- Boolean to enable stylus gestures -->
     <bool name="config_stylusGestures">true</bool>
 
+    <!-- Disable lockscreen translucent decor by default -->
+    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
 </resources>

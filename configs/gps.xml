@@ -7,12 +7,12 @@
        gpioNStdbyPath="/sys/class/sec/gps/GPS_PWR_EN/value"
        gpioNResetPath="/sys/class/sec/gps/GPS_nRST/value"
        gpioDelayMs="250"
-       acNvStoDir="/data/gps/"
-       FactoryTestFilePath="/data/data/com.sec.android.app.factorytest/files/"
+       acNvStoDir="/data/"
+       FactoryTestFilePath="/data/"
 
        acLogDirectory="/sdcard/gps/broadcom/"
 
-       TISEnabled="false"
+       TISEnabled="true"
        LPmode="false"
        cp-cold-start="false"
        cp-guard-time-sec="1"
@@ -45,6 +45,7 @@
        LbsWlanEnable="false"
 
        IgnoreJniTime="true"
+       AssertEnabled="false"
    />
 
   <gll
